@@ -1,0 +1,6 @@
+framework module JWIndicatorView {
+  umbrella header "JWIndicatorView-umbrella.h"
+
+  export *
+  module * { export * }
+}

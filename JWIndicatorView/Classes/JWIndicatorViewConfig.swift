@@ -32,7 +32,7 @@ public class JWIndicatorViewConfig: NSObject {
     /// whether tap JWIndicatorView to dismiss or not, default = `false`
     @IBInspectable public var isTapDismiss: Bool = false
     
-    /// UIIndicatorPositionStyle of content, default = `center`, only work in `offset = 0.0`
+    /// JWIndicatorPositionStyle of content, default = `center`, only work in `offset = 0.0`
     public var position: JWIndicatorPositionStyle = .center
     /// offset of the content on the y-axis, with the screen centered by default, `> 0` near the top edge of the screen, and `< 0` near the bottom edge of the screen, default = `0.0`
     @IBInspectable var offset: CGFloat = 0.0
@@ -90,7 +90,7 @@ public extension JWIndicatorViewConfig {
     
     //TODO: contentView
     
-    /// type of UIIndicatorPositionStyle
+    /// type of JWIndicatorPositionStyle
     func position(_ value: JWIndicatorPositionStyle = .center) -> Self {
         self.position = value
         return self

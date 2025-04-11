@@ -80,8 +80,8 @@ it alse provides 3 different positions in the form of enumeration, default is `c
 
 ```swift
 
-/// UIIndicatorPositionStyle
-public enum UIIndicatorPositionStyle: CaseIterable {
+/// JWIndicatorPositionStyle
+public enum JWIndicatorPositionStyle: CaseIterable {
     case top
     case center
     case bottom
@@ -141,7 +141,7 @@ JWIndicatorView provides two category methods to display, the first one is to sh
     ///   - style: style of indicator, default = `dark`
     ///   - position: position of indicator, default = `center`
     ///   - message: info of indicator text, default = nil
-    static func show(_ type: NVActivityIndicatorType? = nil, style: JWIndicatorViewStyle? = nil, position: UIIndicatorPositionStyle? = nil, message: String? = nil) {
+    static func show(_ type: NVActivityIndicatorType? = nil, style: JWIndicatorViewStyle? = nil, position: JWIndicatorPositionStyle? = nil, message: String? = nil) {
         if let contain = UIApplication.shared.windows.first(where: { $0.isKeyWindow }) {
             if let exist = contain.subviews.first(where: { $0 is JWIndicatorView }) {
                 exist.removeFromSuperview()

@@ -182,6 +182,8 @@ the other one is to show a custom IndicatorView:
 
 ```
 
+if you find any issue, please start a PR.
+
 ## Change log
 
 2025.04.11, 0.1.0

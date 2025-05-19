@@ -21,6 +21,8 @@ JWIndicatorView is a subclass of UIView used to implement the loading indicator 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+[DeepWiki](https://deepwiki.com/Sfh03031/JWIndicatorView)
+
 ## Requirements
 
 * iOS 12.0 or later
